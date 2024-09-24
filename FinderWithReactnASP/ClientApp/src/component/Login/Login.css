@@ -1,0 +1,85 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 160px); /* Adjusted to account for navbar and footer */
+    background-color: #f5f5f5;
+}
+
+.Login main {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.Login main form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.submitButton {
+    background-color: #ddd;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.submitButtonEnabled {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.submitButtonEnabled:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 0.25rem;
+}
+
+.footerText {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footerLink {
+    color: #333;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+.Login main button{
+    background-color: #383746;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}

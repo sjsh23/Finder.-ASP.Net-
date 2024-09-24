@@ -1,0 +1,75 @@
+.kos-details {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.kos-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.kos-details h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.kos-details p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.kos-details h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.kos-details button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.kos-details button:hover {
+    background-color: #555;
+}
+
+.kos-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kos-details ul li {
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.kos-details ul li:last-child {
+    border-bottom: none;
+}
+
+.kos-details .review p {
+    margin: 5px 0;
+}
+
+.kos-details .review strong {
+    display: block;
+    color: #333;
+}
+
+.kos-details .rating {
+    color: #f5c518;
+    font-size: 14px;
+}
